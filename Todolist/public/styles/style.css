@@ -1,0 +1,50 @@
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+  }
+
+input[type=checkbox]{
+  margin: 20px;
+}
+
+label{
+  font-size: medium;
+}
+
+.box ul {
+  list-style:none;
+  min-height: 50px;
+}
+
+
+html {
+  min-height: 100%;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+}
+
+.box{
+  max-width: 500px;
+  margin: 20px auto;
+  border:5px
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid;
+  min-height:50px
+}
+
+.item:last-child{
+  border-bottom:0;
+}
+
+#heading{
+  text-align: center;
+}
+
+
